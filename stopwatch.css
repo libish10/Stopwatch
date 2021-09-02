@@ -1,0 +1,68 @@
+#container {
+  height: 500px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+#container #background_box {
+  margin: 100px auto;
+  background-color: black;
+  border-radius: 30px;
+  height: 300px;
+  width: 400px;
+
+  -webkit-box-reflect: below 10px
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5));
+}
+
+#container #background_box #Displaying_time {
+  height: 100px;
+  width: 450px;
+  color: white;
+  background-color: blue;
+  position: relative;
+  top: 50px;
+  left: -25px;
+  border-radius: 10px;
+}
+#container #background_box #Displaying_time #displayed {
+  height: 50px;
+  width: 450px;
+  position: absolute;
+  top: 25px;
+  border-radius: 10px;
+
+  display: flex;
+}
+#container #background_box #Displaying_time #displayed .time {
+  font-weight: bolder;
+  height: 30px;
+  width: 100px;
+  position: relative;
+  left: 40px;
+  top: 10px;
+  font-size: 30px;
+}
+#container #background_box #Displaying_time #displayed .align {
+  position: relative;
+  top: 15px;
+  font-weight: bold;
+}
+#container #background_box #buttonMethod {
+  height: 50px;
+  width: 390px;
+  border-radius: 5px;
+  position: relative;
+  top: 90px;
+  display: grid;
+  left: 20px;
+  grid-template-columns: auto auto auto;
+}
+
+#container #background_box #buttonMethod .Btn {
+  color: black;
+  background-color: white;
+  border-radius: 5px;
+  height: 40px;
+  width: 100px;
+  font-weight: bold;
+}

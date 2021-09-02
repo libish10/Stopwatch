@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Stopwatch</title>
+    <link rel="stylesheet" href="./stopwatch.css" />
+  </head>
+  <body>
+    <div id="container">
+      <div id="background_box">
+        <div id="Displaying_time">
+          <div id="displayed">
+            <div class="time" id="hour">00</div>
+            <span class="align">:</span>
+            <div class="time" id="minutes">00</div>
+            <span class="align">:</span>
+            <div class="time" id="seconds">00</div>
+            <span class="align">:</span>
+            <div class="time" id="faster">00</div>
+          </div>
+        </div>
+        <div id="buttonMethod">
+          <button class="Btn" onclick="start()">Start</button>
+          <button class="Btn" onclick="pause()">Pause</button>
+          <button class="Btn" onclick="reset()">Reset</button>
+        </div>
+      </div>
+    </div>
+    <script src="./stopwatch_start.js"></script>
+  </body>
+</html>
